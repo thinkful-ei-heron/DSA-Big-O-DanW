@@ -1,0 +1,35 @@
+1. 1) Constant
+
+   2) Linear
+
+2. Constant -- Peforms constant boolean evaluation on an integer
+
+3. Polynomial -- Determines what elements match between two arrays, requiring 
+                 linear search through second array for each value in first array
+                 so n * n (assuming two arrays of equal length)
+
+4. Linear -- Performs a constant expression for each of n elements in array
+
+5. Linear -- Performs a constant boolean check for each of n elements in array
+
+6. Polynomial -- Performs linear number of operations for each of n elements in array
+
+7. Linear -- The algorithms inserts set of numbers set(x) into the xth indexes of an array,
+              i.e. it creates the set of natural numbers from 0 to the given number ordered
+              from 0.
+
+8. Linear -- Searches array in reverse order, returning false if number being searched for is larger
+            than biggest element in array.  In worst case, searching for smallest number in array, it 
+            will still have to check n elements.
+
+9. Constant -- Just returns a single index from array.
+
+10. Linear -- First checks that number is bigger than one and is an integer.  It then iterates through set of integers
+              from 2 up checking if number is divisible by that integer.  aka it is checking if number is prime.  In
+              worst case (in which number is prime) it will have to do n operations.
+
+11. 
+
+12. See iterative.js
+
+13 & 14.  All algorithms are linear
