@@ -18,9 +18,8 @@
               i.e. it creates the set of natural numbers from 0 to the given number ordered
               from 0.
 
-8. Linear -- Searches array in reverse order, returning false if number being searched for is larger
-            than biggest element in array.  In worst case, searching for smallest number in array, it 
-            will still have to check n elements.
+8. Logarithmic -- Checks mid point of sorted array to see if value is less than or equal to value being
+                  searched for, effectively halving the search space with each iteration. 
 
 9. Constant -- Just returns a single index from array.
 
